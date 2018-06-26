@@ -25,7 +25,7 @@
 </head>
 
 <body onload="intialise()">
-           <form action="<//?php $_PHP_SELF ?>" method="POST">
+           <form action="<?php $_PHP_SELF ?>" method="POST">
              <table border="1">
                 <thead>
                     <tr>
@@ -37,7 +37,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td> <input type="text" id="id" name="id"> </td>
+                       
                         <td> <input type="text" name="location" id="location" > </td>
                         <td><input type="text" name="longitude" id="longitude" readonly="true"></td>
                         <td><input type="text" name="latitude" id="latitude" readonly="true"></td>
@@ -53,3 +53,4 @@
 </body>
 
 </html>
+ 
